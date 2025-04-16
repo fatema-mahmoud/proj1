@@ -119,7 +119,8 @@ button:hover{
     z-index:4;
     position: absolute;
     text-align: center;
-    margin-left: 150px;
+    margin-left: 170px;
+    
    
 }
 .welcome-icons:hover{
@@ -453,8 +454,8 @@ img{
 }
 .choes-img{
    position: absolute;
-   margin-left:900px ;
-   margin-top: -340px;
+   margin-left:840px ;
+   margin-top: -325px;
 }
 .choes-img-ul{
     font-size: 56px;
@@ -484,16 +485,16 @@ img{
     font-style: italic;
 }
 .choes-img-li1{
-    margin-left: 80px;
+    margin-left: 110px;
     opacity: .5;
 }
 
 .choes-img-li3{
-    margin-left: 140px;
+    margin-left: 170px;
     opacity: .5;
 }
 .choes-img-li2{
-    margin-left: 20px;
+    margin-left: 50px;
 } 
 /* //////////////// */
 .fix-img{
@@ -615,7 +616,9 @@ img{
 
 
 }
-
+.circle{
+    border: .5px solid rgb(45, 25, 25) ;
+}
 .circle-content-h2{
     color: rgba(73, 38, 12, 0.575);
     font-size: 30px;
@@ -632,7 +635,7 @@ img{
 
 .circle-content{
     font-style: italic;
-    margin-left: 20px;
+    margin-left: 26px;
     z-index: 2;
 }
 .price-item-content{
@@ -679,7 +682,7 @@ img{
     height: 30px;
     border-radius: 10px;
     background-color: rgba(91, 85, 50, 0.241);
-    border: 0px solid black ;
+    border: .5px solid rgb(45, 25, 25) ;
     position: absolute;
     z-index: 2;
 }
@@ -824,9 +827,10 @@ img{
     width: 45px;
     height: 45px;
     margin-left: 235px;
-    
     line-height: 45px;
+    z-index: 6;
 }
+
 .team-item::after{
     content: "";
     position: absolute;
@@ -842,7 +846,7 @@ img{
 .team-item:hover::after{
     width:100%;
     height:100%;
-    opacity: .3;
+    opacity: .2;
     transition: 1.5s;
     border-radius: 10px;
 
@@ -858,7 +862,7 @@ img{
 .Recent-item{
     float: left;
     width: 30%;
-    height: 520px;
+    height: 530px;
     background-color: rgba(116, 108, 62, 0.299);
     padding: 16px 14px  ;
     text-align: center;
